@@ -21,3 +21,7 @@ Install globally: `ln -s <this dir>/sanitize_reports.py ~/.local/bin/sanitize-re
 ## What it cannot see
 
 It matches shapes, not meaning. It cannot know system state (a hostname or account name outside the listed terms), secrets without a recognisable shape or key name, quoted configuration with free-form values, or text in binary / non-UTF-8 files (skipped). It is a backstop, not a gate: review reports that matter before publishing.
+
+## License
+
+MIT, see [LICENSE](LICENSE).
